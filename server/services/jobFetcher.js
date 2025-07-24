@@ -1,6 +1,6 @@
 const axios = require('axios');
 const parser = require('../utils/xmlParser');
-const Job = require('../models/job');
+const Job = require('../models/job_temp');
 const ImportLog = require('../models/ImportLog');
 
 const feeds = [
